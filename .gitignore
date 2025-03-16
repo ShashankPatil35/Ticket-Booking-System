@@ -1,5 +1,35 @@
-# Ignore Gradle project-specific cache directory
+# Gradle cache and build output
 .gradle
+build/
 
-# Ignore Gradle build output directory
-build
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Java class files
+*.class
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# JAR/WAR files
+*.jar
+*.war
+
+# Generated files and environment configs
+*.generated/
+.env
+*.properties
+
+# Optional: Ignore your localDb JSON files (if they shouldn't go to GitHub)
+app/src/main/java/ticket/booking/localDb/*.json
